@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f1f3f4;
+    font-family: sans-serif;
+}
+.top-nav-bar{
+    height: 57px;
+    top: 0;
+    position: sticky;
+    background-image: ;
+    margin-bottom: 20px;
+    border-bottom: 3px solid orange;
+    z-index: 2;
+}
+.logo{
+    height: 40px;
+    margin: 5px 10px;
+    width: 150px;
+}
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: center;
+    width: 30%;
+    background: #f1f1f1;
+    margin-left: 250px;
+    margin-top: 0;
+  }
+  
+  /* Style the submit button */
+  form.example button {
+    float: center;
+    width: 10%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  
+  /* Clear floats */
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.menu-bar{
+    width: 40%;
+    height: 57px;
+    float: right;
+}
+.menu-bar ul{
+    display: inline-flex;
+    float: right;
+
+}
+.menu-bar ul li{
+    border-left: 1px solid #fff;
+    list-style-type: none;
+    padding: 15px 30px;
+    text-align: center;
+    background-color: orange;
+    cursor: pointer;
+}
+.menu-bar ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+.fa-shopping-basket{
+    margin-right: 5px;
+
+}
+.side-menu{
+    height: 79%;
+    width: 15%;
+    font-size: 15px;
+    float: left;
+    z-index: 2;
+    background-color: #ddd;
+}
+.side-menu ul {
+    margin-left: 10px;
+}
+.side-menu ul li{
+    list-style: none;
+    font-weight: bold;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.side-menu ul li:hover{
+    color: orange;
+}
+.side-menu ul li ul{
+    display: none;
+    z-index: 10;
+    top: 77px;
+
+}
+.side-menu ul li:hover ul{
+    display: block;
+    height: 400px;
+    margin-left: 14%;
+    padding: 0 100px 10px 10px;
+    position: fixed;
+    background: #ececec;
+    box-shadow: 1px 1px 4px 1px rgba(0,0,0,0.5);
+}
+.fa-angle-right{
+    margin-top: 4px;
+    margin-right: 8px;
+    float: right;
+}
+.slider{
+
+    width: 85%;
+    margin-left: 15%;
+    padding: 0 10px;
+    height: 79%;
+}
